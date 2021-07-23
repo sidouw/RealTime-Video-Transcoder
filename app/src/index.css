@@ -1,0 +1,87 @@
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background: radial-gradient(circle at 50% bottom, rgba(84,79,69,1) 0%, rgba(12,31,40,1) 85%, rgba(0,4,33,1) 100%);
+
+  color: #E8EBE7;
+}
+input{
+    border: none;
+}
+
+button{
+    background-color: #E8EBE7;
+    color: #946850;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+    cursor: pointer;
+}
+
+.folderSelecet{
+  /* margin: 1rem; */
+  padding: 1rem;
+  /* background: magenta; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.folderSelecet-input{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.folderSelecet-input input {
+  width:100%;
+  margin: 0 1rem 0 .2rem;
+  padding: .2rem 1rem;
+}
+.settings{
+  display: flex;
+  flex-direction: column;
+  margin:10px 0 0 0 ;
+  width: 100%;
+  /* background: firebrick; */
+}
+.setting{
+
+  margin: .2rem 1rem;
+  display: flex;
+  
+}
+.settingsPage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background: gold; */
+  height: 100vh;
+
+}
+.setting label {
+  width: 150px;
+  /* background: cadetblue; */
+}
+#settinginput{
+  margin: 0 1rem;
+}
+
+#serverBtn{
+  margin-top: 20px;
+  align-self: center;
+}
+#locateBtn{
+  height: 22px;
+  font-size: .9rem;
+  padding: .2rem .6rem;
+}

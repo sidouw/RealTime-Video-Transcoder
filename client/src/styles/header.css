@@ -1,0 +1,26 @@
+.header{
+
+    background: #111;
+    margin: 0 0 10px 0;
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom:  #111 solid 1px;
+
+}
+
+.headerLogo {
+    height: 200px;
+    margin: 0;
+    font-weight: 800;
+    fill: white;
+    stroke: white;
+    /* background-color: beige; */
+}
+
+
+.header h2 {
+    margin: 0;
+    color: #c3c3c3;
+    font-size: 50px;
+}
